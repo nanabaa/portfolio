@@ -13,9 +13,7 @@ body{
  
  }
  
- main{
- padding: 9%;
- }
+ 
  .koho-regular {
      font-family: "KoHo", serif;
      font-weight: 400;
@@ -73,6 +71,11 @@ body{
  .biofoda{
  display: flex;
  justify-content: space-between;
+ 
+ padding-bottom: 0%;
+ padding-left: 9%;
+ padding-right: 9%;
+ padding-top: 9%;
  }
  .bio{
    font-family: "Inria Sans", serif;
@@ -86,11 +89,16 @@ body{
  .social{
    margin-right: 100px;
  }
- .social h3{
+ .social a{
    font-family: "Inria Sans", serif;
    color: #925867;
    font-size: 20px;
  }
+ .social h3{
+  font-family: "Inria Sans", serif;
+  color: #925867;
+  font-size: 20px;
+}
  .cardsocial{
    display: flex;
    align-items: center
@@ -111,6 +119,9 @@ body{
  font-size: 25px;
  font-style: normal;
  color: #543530;
+ padding-left: 9%;
+ padding-right: 9%;
+ padding-top: 9%;
  }
  .expedu h2{
    font-family: "Inria Sans", serif;
@@ -130,7 +141,9 @@ body{
  }
  
  .edu li{
-   padding: 20px;
+   padding-right: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
  }
  
  .expimg img{
@@ -143,7 +156,10 @@ body{
    padding: 0 !important;
  }
  .others{
- padding-top: 30px;
+ padding-left: 9%;
+ padding-right: 9%;
+ padding-bottom: 5%;
+ padding-top: 5%;
  }
  .card1{
    display: flex;
@@ -198,6 +214,7 @@ body{
    justify-content: space-around;
    align-items: center;
    margin-bottom: 5%;
+   height: 200px;
  }
  .skill{
    display: flex;
