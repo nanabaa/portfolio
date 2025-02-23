@@ -1,117 +1,212 @@
 body{
- background-color: #EBE2B3;
- border-style: none;
-}
-
-.koho-regular {
-    font-family: "KoHo", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-  .inria-sans-regular {
-    font-family: "Inria Sans", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .inria-sans-bold {
-    font-family: "Inria Sans", serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-
-  .judson-regular-italic {
-    font-family: "Judson", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-
-.banner h1{
-    font-family: "Judson", serif;
-    font-size:550%;
-    color: #EBE2B3;
-}
-
-.banner h2{
-    font-family: "KoHo", serif;
-    font-size: 350%;
-    color: #DFB6A4;
-}
-
-.banner{
-  background-color: #925867;
-  margin: 0%;
-  padding: 0%;
-}
-
-.func{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: flex-end;
-    background-color: #9C825C;
-    border-left: 20%;
-    font-family: "Inria Sans", serif;
-    font-weight: 400;
-    color: #543530;
-}
-
-.skills{
-  background-color: #543530;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.skillname{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.others h2{
-  display: flex;
-  flex-direction: column;
-  justify-content:center;
-  align-items:center;
-  font-family: "Inria Sans", serif;
-  font-weight: 700;
-  font-style: normal;
-  color: #543530;
-  background-color: #DFB6A4;
-}
-
-.social h3{
-  font-family: "Inria Sans", serif;
-}
-
-.exp h2{
-  font-family: "Inria Sans", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.exp h3{
-  font-family: "Inria Sans", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.expimg{
-  display: flex;
-  flex-direction: column;
-  justify-content:flex-end;
-  align-items:end;
-  margin: 0%;
-}
-
-.bio h2{
-  font-family: "Inria Sans", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
+  background-color: #EBE2B3;
+  border-style: none;
+ 
+ }
+ header{
+   background-color: #925867;
+   border-bottom-right-radius:200px ;
+   height: 657px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+ 
+ }
+ 
+ main{
+ padding: 9%;
+ }
+ .koho-regular {
+     font-family: "KoHo", serif;
+     font-weight: 400;
+     font-style: normal;
+   }
+ 
+   .inria-sans-regular {
+     font-family: "Inria Sans", serif;
+     font-weight: 400;
+     font-style: normal;
+   }
+   
+   .inria-sans-bold {
+     font-family: "Inria Sans", serif;
+     font-weight: 700;
+     font-style: normal;
+   }
+ 
+   .judson-regular-italic {
+     font-family: "Judson", serif;
+     font-weight: 400;
+     font-style: italic;
+   }
+   
+ .banner{
+   padding-left: 9%;
+   margin-bottom: 110px;
+ }
+ .banner h1{
+     font-family: "Judson", serif;
+     font-size:175px;
+     color: #EBE2B3;
+ }
+ 
+ .banner h2{
+     font-family: "KoHo", serif;
+     font-size: 75px;
+     color: #DFB6A4;
+ }
+ 
+ .func{
+     width: 638px;
+     height: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 200px;
+     border-radius: 50px 0px 0px 50px;
+     background-color: #9C825C;
+     font-family: "Inria Sans", serif;
+     font-size: 30px;
+     font-weight: 400;
+     color: #543530;
+ }
+ .biofoda{
+ display: flex;
+ justify-content: space-between;
+ }
+ .bio{
+   font-family: "Inria Sans", serif;
+   font-weight: 400;
+   font-size: 35px;
+   font-style: normal;
+   width: 681px;
+   height: 252px;
+   color: #543530;
+ }
+ .social{
+   margin-right: 100px;
+ }
+ .social h3{
+   font-family: "Inria Sans", serif;
+   color: #925867;
+   font-size: 20px;
+ }
+ .cardsocial{
+   display: flex;
+   align-items: center
+ }
+ .cardsocial h3{
+   margin-left: 10px;
+ }
+ .info{
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+ }
+ .expedu{
+ width: 525px;
+ height: 581px;
+ font-family: "Inria Sans", serif;
+ font-weight: 400;
+ font-size: 25px;
+ font-style: normal;
+ color: #543530;
+ }
+ .expedu h2{
+   font-family: "Inria Sans", serif;
+   font-weight: 700;
+   font-size: 35px;
+   font-style: normal;
+   color: #925867;
+   padding: 50px 0px 50px 0px;
+ }
+ 
+ .exp{
+   padding-top: 20px;
+   border-bottom: solid 2px #DFB6A4;
+ }
+ .exp h3{
+   margin-bottom: 60px;
+ }
+ 
+ .edu li{
+   padding: 20px;
+ }
+ 
+ .expimg img{
+   width: 685px;
+   height: 685px ;
+   display: flex;
+   flex-direction: column;
+   justify-content:flex-end;
+   align-items:end;
+   padding: 0 !important;
+ }
+ .others{
+ padding-top: 30px;
+ }
+ .card1{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .card2{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ .card1 img{
+ padding: 30px;
+ }
+ .card2 img{
+   padding-inline: 130px;
+   }
+ .titu{
+   width: 520px;
+   height: 73px;
+   display: flex;
+   justify-content:center;
+   align-items:center;
+   font-family: "Inria Sans", serif;
+   font-weight: 700;
+   font-size: 35px;
+   font-style: normal;
+   color: #543530;
+   background-color: #DFB6A4;
+     margin: 05%;
+     border-radius: 20px;
+ }
+ .titu3{
+   width: 520px;
+   height: 73px;
+   display: flex;
+   justify-content:center;
+   align-items:center;
+   font-family: "Inria Sans", serif;
+   font-weight: 700;
+   font-size: 35px;
+   font-style: normal;
+   color: #543530;
+   background-color: #DFB6A4;
+     margin-bottom: 05%;
+     border-radius: 20px;
+ }
+ .skills{
+   background-color: #543530;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .skill{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: #EAE2B3;
+   font-family: "Inria Sans", serif;
+   font-size: 25px;
+ }
+ .skill h3{
+   padding: 10px;
+ }
+ 
