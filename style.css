@@ -76,7 +76,7 @@ body{
  }
  .bio{
    font-family: "Inria Sans", serif;
-   font-weight: 400;
+   font-weight: 700;
    font-size: 35px;
    font-style: normal;
    width: 681px;
@@ -197,6 +197,7 @@ body{
    flex-direction: row;
    justify-content: space-around;
    align-items: center;
+   margin-bottom: 5%;
  }
  .skill{
    display: flex;
